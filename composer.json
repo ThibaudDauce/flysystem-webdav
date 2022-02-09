@@ -1,0 +1,29 @@
+{
+    "name": "thibaud-dauce/flysystem-webdav",
+    "type": "library",
+    "require": {
+        "league/flysystem": "^3.0",
+        "sabre/dav": "^4.3"
+    },
+    "require-dev": {
+        "league/flysystem-adapter-test-utilities": "^3.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ThibaudDauce\\FlysystemWebdav\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thibaud Dauce",
+            "email": "git@hadibut.fr"
+        }
+    ]
+}
