@@ -1,10 +1,12 @@
 # flysystem/webdav
 
-## Insallation
+## Installation
 
 ```bash
 composer require thibaud-dauce/flysystem-webdav
 ```
+
+The package is still in 0.x right now because I need to test it inside my application before going 1.0.
 
 ## Tests
 
